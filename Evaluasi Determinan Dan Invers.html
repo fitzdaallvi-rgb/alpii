@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Markdown Files &#8212; My sample book</title>
+    <title>Evaluasi Determinan Dan Invers &#8212; My sample book</title>
   
   
   
@@ -60,9 +60,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'markdown';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Evaluasi Determinan Dan Invers';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Tugas Awal" href="Tugas%20Awal.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -113,8 +116,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
@@ -168,13 +169,13 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Materi-1.html">Materi 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Materi-2.html">Materi 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Materi-3.html">Materi 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Tugas%20Eliminasi%20Gaussan.html">Tugas ELiminasi Gaussan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Tugas%20Awal.html">Tugas Awal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Evaluasi%20Determinan%20Dan%20Invers.html">Evaluasi Determinan Dan Invers</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Evaluasi Determinan Dan Invers</a></li>
 </ul>
 
     </div>
@@ -251,7 +252,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FEvaluasi Determinan Dan Invers.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -281,7 +282,7 @@
       
       
       
-      <li><a href="_sources/markdown.md" target="_blank"
+      <li><a href="_sources/Evaluasi Determinan Dan Invers.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -357,7 +358,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Markdown Files</h1>
+    <h1>Evaluasi Determinan Dan Invers</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -367,10 +368,12 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-22-determinan">1. Matriks 2×2 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-33-determinan">2. Matriks 3×3 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-44-determinan">3. Matriks 4×4 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-22-invers">4. Matriks 2×2 (Invers)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-33-invers">5. Matriks 3×3 (Invers)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-44-invers">6. Matriks 4×4 (Invers)</a></li>
 </ul>
             </nav>
         </div>
@@ -382,59 +385,424 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Link to this heading">#</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<section id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Link to this heading">#</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="evaluasi-determinan-dan-invers">
+<h1>Evaluasi Determinan Dan Invers<a class="headerlink" href="#evaluasi-determinan-dan-invers" title="Link to this heading">#</a></h1>
+<p>SOAL.</p>
+<p><strong>A. Hitunglah determinan matrik berikut dengan menggunakan rumus expansi baris</strong></p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=1}^n (-1)^{i+k} a_{ik} M_{ik}\]</div>
+<p>dengan <span class="math notranslate nohighlight">\(M_{ij}\)</span> adalah minor dari matrik A dan</p>
+<div class="math notranslate nohighlight">
+\[M_{ij} = \det A_{ij}.\]</div>
+<p><span class="math notranslate nohighlight">\(A_{ij}\)</span> adalah submatrik dengan menghapus baris i dan kolom kolom j dari matrix <span class="math notranslate nohighlight">\(A_{mxn}\)</span> dengan <span class="math notranslate nohighlight">\(1 \le i, j \le n\)</span></p>
+<hr class="docutils" />
+<section id="matriks-22-determinan">
+<h2>1. Matriks 2×2 (Determinan)<a class="headerlink" href="#matriks-22-determinan" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split} A = \begin{bmatrix} -7 &amp; 1 \\ -5 &amp; 4 \end{bmatrix} \end{split}\]</div>
+<p>Ekspansi baris pertama:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = a_{11}C_{11} + a_{12}C_{12}
+\]</div>
+<p>Minor:
+$<span class="math notranslate nohighlight">\(
+M_{11} = 4, \quad M_{12} = -5
+\)</span>$</p>
+<p>Determinan:
+$<span class="math notranslate nohighlight">\(
+\det(A) = (-7)(4) + (1)(5) = -28 + 5 = -23
+\)</span>$</p>
 </section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Link to this heading">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
-</div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <a class="reference internal" href="markdown-notebooks.html"><span class="doc">Notebooks with MyST Markdown</span></a>.</p>
+<hr class="docutils" />
+<section id="matriks-33-determinan">
+<h2>2. Matriks 3×3 (Determinan)<a class="headerlink" href="#matriks-33-determinan" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split} A = \begin{bmatrix} 0 &amp; 1 &amp; 0 \\ 2 &amp; -2 &amp; 0 \\ -3 &amp; -1 &amp; 1 \end{bmatrix} \end{split}\]</div>
+<p>Ekspansi baris pertama:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}
+\]</div>
+<p>Minor:</p>
+<div class="math notranslate nohighlight">
+\[
+M_{11} =
+\begin{vmatrix}
+-2 &amp; 0 \
+-1 &amp; 1
+\end{vmatrix}
+= -2
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+M_{12} =
+\begin{vmatrix}
+2 &amp; 0 \
+-3 &amp; 1
+\end{vmatrix}
+= 2
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+M_{13} =
+\begin{vmatrix}
+2 &amp; -2 \
+-3 &amp; -1
+\end{vmatrix}
+= -2 - 6 = -8
+\]</div>
+<p>Determinan:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = 0(-2) + 1(-2) + 0(-8) = -2
+\]</div>
 </section>
-<section id="citations">
-<h2>Citations<a class="headerlink" href="#citations" title="Link to this heading">#</a></h2>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <span id="id1">[<a class="reference internal" href="#id3" title="Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.">HdHPK14</a>]</span>.</p>
-<p>Moreover, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<div class="docutils container" id="id2">
-<div role="list" class="citation-list">
-<div class="citation" id="id3" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">HdHPK14</a><span class="fn-bracket">]</span></span>
-<p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</div>
-</div>
-</div>
+<hr class="docutils" />
+<section id="matriks-44-determinan">
+<h2>3. Matriks 4×4 (Determinan)<a class="headerlink" href="#matriks-44-determinan" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split} A = \begin{bmatrix} 1 &amp; -3 &amp; 1 &amp; 1 \\ -3 &amp; 1 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; -3 &amp; 1 \\ 1 &amp; 1 &amp; 1 &amp; -3 \end{bmatrix} \end{split}\]</div>
+<p>Ekspansi baris pertama:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} + a_{14}C_{14}
+\]</div>
+<p>Minor:</p>
+<div class="math notranslate nohighlight">
+\[
+M_{11} = 16, \quad M_{12} = -16, \quad M_{13} = 16, \quad M_{14} = -16
+\]</div>
+<p>Determinan:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = 1(16) + (-3)(16) + 1(16) + 1(16)
+= 16 - 48 + 16 + 16 = 0
+\]</div>
+<hr class="docutils" />
+<p><strong>B. Gunakan rumus matriks adjoin untuk menghitung invers dari matriks berikut dengan rumus</strong></p>
+<div class="math notranslate nohighlight">
+\[(\operatorname{adj} A)_{ij} = (-1)^{i+j} M_{ji}\]</div>
+<p>dan</p>
+<div class="math notranslate nohighlight">
+\[A^{-1} = \frac{1}{\det A} \operatorname{adj} A.\]</div>
 </section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Link to this heading">#</a></h2>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
+<hr class="docutils" />
+<section id="matriks-22-invers">
+<h2>4. Matriks 2×2 (Invers)<a class="headerlink" href="#matriks-22-invers" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}A = \begin{bmatrix} -7 &amp; -5 \\ 1 &amp; 4 \end{bmatrix}\end{split}\]</div>
+<p>Diketahui Determinan:</p>
+<div class="math notranslate nohighlight">
+\[\det(A) = - 23\]</div>
+<p>Minor:</p>
+<div class="math notranslate nohighlight">
+\[
+M_{11} = \begin{vmatrix} 4 \end{vmatrix} = 4
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+M_{12} = \begin{vmatrix} 1 \end{vmatrix} = 1
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+M_{21} = \begin{vmatrix} -5 \end{vmatrix} = -5
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+M_{22} = \begin{vmatrix} -7 \end{vmatrix} = -7
+\]</div>
+<p>Kofaktor:</p>
+<div class="math notranslate nohighlight">
+\[
+C_{11} = (+)M_{11} = 4
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+C_{12} = (-)M_{12} = -1
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+C_{21} = (-)M_{21} = 5
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+C_{22} = (+)M_{22} = -7
+\]</div>
+<p>Adjoin (Transpose kofaktor):</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\operatorname{adj}(A) =
+\begin{bmatrix}
+4 &amp; 5 \\
+-1 &amp; -7
+\end{bmatrix}
+\end{split}\]</div>
+<p>Invers:</p>
+<div class="math notranslate nohighlight">
+\[
+A^{-1} = \frac{1}{\det(A)} \operatorname{adj}(A)
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A^{-1} = \frac{1}{-23}
+\begin{bmatrix}
+4 &amp; 5 \\
+-1 &amp; -7
+\end{bmatrix}
+\end{split}\]</div>
+<p>Hasil Akhir:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A^{-1} =
+\begin{bmatrix}
+-\frac{4}{23} &amp; -\frac{5}{23} \\
+\frac{1}{23} &amp; \frac{7}{23}
+\end{bmatrix}
+\end{split}\]</div>
+</section>
+<section id="matriks-33-invers">
+<h2>5. Matriks 3×3 (Invers)<a class="headerlink" href="#matriks-33-invers" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}A = \begin{bmatrix} 0 &amp; 2 &amp; -3 \\ 1 &amp; -2 &amp; -1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}\end{split}\]</div>
+<p>Diketahui Determinan:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = -2
+\]</div>
+<p>Minor:</p>
+<p><span class="math notranslate nohighlight">\(M_{11}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{11} =
+\begin{vmatrix}
+-2 &amp; -1 \\
+0 &amp; 1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (-2)(1) - (-1)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= -2 - 0 = -2
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{12}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{12} =
+\begin{vmatrix}
+1 &amp; -1 \\
+0 &amp; 1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (1)(1) - (-1)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 1 - 0 = 1
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{13}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{13} =
+\begin{vmatrix}
+1 &amp; -2 \\
+0 &amp; 0
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (1)(0) - (-2)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 0 - 0 = 0
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{21}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{21} =
+\begin{vmatrix}
+2 &amp; -3 \\
+0 &amp; 1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (2)(1) - (-3)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 2 - 0 = 2
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{22}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{22} =
+\begin{vmatrix}
+0 &amp; -3 \\
+0 &amp; 1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (0)(1) - (-3)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 0 - 0 = 0
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{23}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{23} =
+\begin{vmatrix}
+0 &amp; 2 \\
+0 &amp; 0
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (0)(0) - (2)(0)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 0 - 0 = 0
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{31}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{31} =
+\begin{vmatrix}
+2 &amp; -3 \\
+-2 &amp; -1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (2)(-1) - (-3)(-2)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= -2 - 6 = -8
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{32}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{32} =
+\begin{vmatrix}
+0 &amp; -3 \\
+1 &amp; -1
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (0)(-1) - (-3)(1)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 0 + 3 = 3
+\]</div>
+<p><span class="math notranslate nohighlight">\(M_{33}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M_{33} =
+\begin{vmatrix}
+0 &amp; 2 \\
+1 &amp; -2
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+= (0)(-2) - (2)(1)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+= 0 - 2 = -2
+\]</div>
+<p>Kofaktor:</p>
+<div class="math notranslate nohighlight">
+\[
+C_{ij} = (-1)^{i+j} M_{ij}
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+C =
+\begin{bmatrix}
+-2 &amp; -1 &amp; 0 \\
+-2 &amp; 0 &amp; 0 \\
+-8 &amp; -3 &amp; -2
+\end{bmatrix}
+\end{split}\]</div>
+<p>Adjoin (Transpose kofaktor):</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\operatorname{adj}(A) =
+\begin{bmatrix}
+-2 &amp; -2 &amp; -8 \\
+-1 &amp; 0 &amp; -3 \\
+0 &amp; 0 &amp; -2
+\end{bmatrix}
+\end{split}\]</div>
+<p>Invers:</p>
+<div class="math notranslate nohighlight">
+\[
+A^{-1} = \frac{1}{\det(A)} \operatorname{adj}(A)
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A^{-1} = \frac{1}{-2}
+\begin{bmatrix}
+-2 &amp; -2 &amp; -8 \\
+-1 &amp; 0 &amp; -3 \\
+0 &amp; 0 &amp; -2
+\end{bmatrix}
+\end{split}\]</div>
+<p>Hasil Akhir:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A^{-1} =
+\begin{bmatrix}
+1 &amp; 1 &amp; 4 \\
+\frac{1}{2} &amp; 0 &amp; \frac{3}{2} \\
+0 &amp; 0 &amp; 1
+\end{bmatrix}
+\end{split}\]</div>
+</section>
+<section id="matriks-44-invers">
+<h2>6. Matriks 4×4 (Invers)<a class="headerlink" href="#matriks-44-invers" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}A = \begin{bmatrix} 1 &amp; -3 &amp; 1 &amp; 1 \\ -3 &amp; 1 &amp; 1 &amp; 1 \\ 1 &amp; 1 &amp; -3 &amp; 1 \\ 1 &amp; 1 &amp; 1 &amp; -3 \end{bmatrix}.\end{split}\]</div>
+<p>Diketahui Determinan:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = 0
+\]</div>
+<p>Invers</p>
+<div class="math notranslate nohighlight">
+\[
+A^{-1} = \frac{1}{\det(A)} \operatorname{adj}(A)
+\]</div>
+<p>Karena:</p>
+<div class="math notranslate nohighlight">
+\[
+\det(A) = 0
+\]</div>
+<p>maka:</p>
+<div class="math notranslate nohighlight">
+\[
+A^{-1} = \frac{1}{0} \operatorname{adj}(A)
+\]</div>
+<p>Pembagian dengan nol tidak terdefinisi, sehingga:</p>
+<div class="math notranslate nohighlight">
+\[
+A^{-1} \text{ tidak ada}
+\]</div>
+<hr class="docutils" />
 </section>
 </section>
 
@@ -468,6 +836,15 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="Tugas%20Awal.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Tugas Awal</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
@@ -486,10 +863,12 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-22-determinan">1. Matriks 2×2 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-33-determinan">2. Matriks 3×3 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-44-determinan">3. Matriks 4×4 (Determinan)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-22-invers">4. Matriks 2×2 (Invers)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-33-invers">5. Matriks 3×3 (Invers)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-44-invers">6. Matriks 4×4 (Invers)</a></li>
 </ul>
   </nav></div>
 
